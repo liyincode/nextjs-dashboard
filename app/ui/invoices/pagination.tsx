@@ -89,6 +89,7 @@ function PaginationNumber({
         <div className={className}>{page}</div>
     ) : (
         <Link href={href} className={className}>
+        </Link>
     );
 }
 
